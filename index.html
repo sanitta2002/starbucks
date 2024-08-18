@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+
+    <!-- bootstrap link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid px-5">
+        <img src="image/logo.jpg" alt="" width="85" height="55" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-end custom-offcanvas"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >MENU</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >REWARDS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#"
+                  >GIFT CARDS</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-md-flex d-sm-block" href="#">
+              <div class="d-flex">
+                <i
+                  class="fa-solid fa-location-dot p-2"
+                  style="color: black"
+                ></i>
+                <p class="item me-5 fw-bold p-2 hl-5">Find a store</p>
+              </div>
+              <div class="button">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark btn rounded-pill h-26 me-5"
+                >
+                  Sign in
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark btn rounded-pill h-26 me-5"
+                >
+                  Join now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /nav bar -->
+
+
+
+    <div class="container-fluid">
+
+      <!-- first image  -->
+
+      <div class="row mx-4 align-items-center my-3" id="row1">
+        <div class="col-md-6 px-0">
+          <img class="img1" src="image/1-pic.jpg" />
+        </div>
+
+        <div
+          class="col-md-6 p-5 text-center d-flex flex-column justify-content-center align-items-center py-5 text-light px-5">
+          <h2>Our treat to you</h2>
+          <p>
+            Join Starbucks® Rewards and savor our gift to you: a free drink with
+            qualifying purchase during your first week. Valid for one-time use.*
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-light btn rounded-pill h-26 ">
+            Join now
+          </button>
+        </div>
+      </div>
+
+      <!-- second image  -->
+
+      <div
+        class="row mx-4 align-items-center d-flex flex-wrap-reverse my-3"
+        id="row2">
+        <div
+          class="col-md-6 p-5 text-center d-flex flex-column justify-content-center align-items-center text-light">
+          <h2>Sunny-day essentials</h2>
+          <p>Flavorful creations sure to brighten any summer day.</p>
+          <button
+            type="button"
+            class="btn btn-outline-light btn rounded-pill h-26 ">
+            Order now
+          </button>
+        </div>
+
+        <div class="col-md-6 px-0">
+          <img class="img1" src="image/2-pic.webp" />
+        </div>
+      </div>
+
+      <!-- three image  -->
+      <div class="row mx-4 align-items-center my-3" id="row3">
+        <div class="col-md-6 px-0">
+          <img class="img1" src="image/3-pic.jpg" />
+        </div>
+
+        <div
+          class="col-md-6 p-5 text-center d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2>Here’s an A+ gift</h2>
+          <p>
+            Celebrate back to school by sending your favorite students, parents
+            and school staff members a Starbucks eGift.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-light btn rounded-pill h-26 ">
+            Send an eGift
+          </button>
+        </div>
+      </div>
+
+      <!-- four image  -->
+
+      <div
+        class="row mx-4 align-items-center d-flex flex-wrap-reverse"
+        id="row4"
+      >
+        <div
+          class="col p-5 text-center d-flex flex-column justify-content-center align-items-center"
+        >
+          <h2>Sunny-day essentials</h2>
+          <p>Flavorful creations sure to brighten any summer day.</p>
+          <button
+            type="button"
+            class="btn btn-outline-light btn rounded-pill h-26 ">
+            Order now
+          </button>
+        </div>
+
+        <div class="col-md-6 px-0">
+          <img class="img1" src="image/4-pic.webp" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1 col-md-2"></div>
+        <div class="col-10 col-md-8 text-center my-5 fs-6">
+          <p>
+            *Valid only for new Starbucks Rewards members for 7 days from sign
+            up. Offer good at participating stores for a handcrafted menu-sized
+            beverage with eligible purchase ($8 max value). Taxes not included.
+            Excludes alcohol, Starbucks Card and Starbucks Card reloads. Limit
+            one per member. Cannot be combined with other offers or discounts.
+            Product availability varies by store. Excludes delivery services.
+            Sign up from 8/16/24 - 8/21/24 to be eligible.
+          </p>
+        </div>
+        <div class="col-1 col-md-2"></div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- footer1 -->
+    <hr />
+    <div class="container">
+      <div class="footer-menu accordion">
+        <div class="footer-column accordion-item">
+          <h3
+            data-bs-toggle="collapse accordion-header "
+            data-bs-target="#aboutUs"
+            aria-expanded="false"
+            aria-controls="aboutUs"
+            class="d-block d-md-none"
+          >
+            <button
+              class="accordion-button btn"
+              style="background-color: transparent"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#aboutUs"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              About Us
+            </button>
+          </h3>
+          <h3 class="d-none d-md-block fs-5">About Us</h3>
+          <div id="aboutUs" class="collapse">
+            <ul>
+              <li><a href="#">Our Company</a></li>
+              <li><a href="#">Our Coffee</a></li>
+              <li><a href="#">Stories and News</a></li>
+              <li><a href="#">Starbucks Archive</a></li>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- column 1 -->
+        <div class="footer-menu accordion">
+          <div class="footer-column accordion-item">
+            <h3
+              data-bs-toggle="collapse accordion-header"
+              data-bs-target="#Careers"
+              aria-expanded="false"
+              aria-controls="Careers"
+              class="d-block d-md-none"
+            >
+              <button
+                class="accordion-button"
+                style="background-color: transparent"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#Careers"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Careers
+              </button>
+            </h3>
+            <h3 class="d-none d-md-block fs-5">Careers</h3>
+            <div id="Careers" class="collapse">
+              <ul>
+                <li><a href="#">Culture and Values</a></li>
+                <li><a href="#">Inclusion, Diversity, and Equity</a></li>
+                <li><a href="#">College achievement plan</a></li>
+                <li><a href="#">Alumni Community</a></li>
+                <li><a href="#">U.S Careers</a></li>
+                <li><a href="#">International Carrers</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- column 2 -->
+
+          <div class="footer-menu accordion">
+            <div class="footer-column accordion-item">
+              <h3
+                data-bs-toggle="collapse accordion-header"
+                data-bs-target="#Social_Impact"
+                aria-expanded="false"
+                aria-controls="Social_Impact"
+                class="d-block d-md-none"
+              >
+                <button
+                  class="accordion-button"
+                  style="background-color: transparent"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#Social_Impact"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Social Impact
+                </button>
+              </h3>
+              <h3 class="d-none d-md-block fs-5">Social Impact</h3>
+              <div id="Social_Impact" class="collapse">
+                <ul>
+                  <li><a href="#">People</a></li>
+                  <li><a href="#">Planet</a></li>
+                  <li>
+                    <a href="#">Environmental and Social Impact Reporting</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- column 3 -->
+
+            <div class="footer-menu accordion">
+              <div class="footer-column accordion-item">
+                <h3
+                  data-bs-toggle="collapse accordion-header"
+                  data-bs-target="#For_Business_Partners"
+                  aria-expanded="false"
+                  aria-controls="For_Business_Partners"
+                  class="d-block d-md-none"
+                >
+                  <button
+                    class="accordion-button"
+                    style="background-color: transparent"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#For_Business_Partners"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    For Business Partners
+                  </button>
+                </h3>
+                <h3 class="d-none d-md-block fs-5">For Business Partners</h3>
+                <div id="For_Business_Partners" class="collapse">
+                  <ul>
+                    <li><a href="#">Landlord SUpport Center</a></li>
+                    <li><a href="#">Suppleirs</a></li>
+                    <li><a href="#">Corporate Gift Card Sales</a></li>
+                    <li><a href="#">Office and Foodservice Coffee</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- column 4 -->
+
+              <div class="footer-menu accordion">
+                <div class="footer-column accordion-item">
+                  <h3
+                    data-bs-toggle="collapse accordion-header"
+                    data-bs-target="#Order_and_Pick_Up"
+                    aria-expanded="false"
+                    aria-controls="Order_and_Pick_Up"
+                    class="d-block d-md-none"
+                  >
+                    <button
+                      class="accordion-button"
+                      style="background-color: transparent"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#Order_and_Pick_Up"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Order and Pick Up
+                    </button>
+                  </h3>
+                  <h3 class="d-none d-md-block fs-5">Order and Pick Up</h3>
+                  <div id="Order_and_Pick_Up" class="collapse">
+                    <ul>
+                      <li><a href="#">Oder and Pick Up</a></li>
+                      <li><a href="#">Oder on the App</a></li>
+                      <li><a href="#">Oder on the Web</a></li>
+                      <li><a href="#">delivery</a></li>
+                      <li><a href="#">Order and Pick Up Options</a></li>
+                      <li><a href="#">Explore and Pick Coffee for Home</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /footer1 -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer 2 -->
+    <hr />
+
+    <!-- provided social media logos using font awesome -->
+    <div class="footer-final">
+      <div class="sm-logo">
+        <i class="fa-brands fa-spotify"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="sm-info">
+        <!-- added links using unordered lists -->
+        <ul>
+          <li><a href="#">Privacy Notice</a></li>
+          <li><a href="#">Consumer Health Privacy Notice</a></li>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">Do Not Share My Personal Information</a></li>
+          <li><a href="#">CA Supply Chain Act</a></li>
+          <li><a href="#">Accessibilty</a></li>
+          <li><a href="#">Cookie prefrences</a></li>
+        </ul>
+      </div>
+      <!-- copyright info -->
+      <small>© 2024 Starbucks Coffee Company. All rights reserved.</small>
+    </div>
+
+    <!-- /footer 2 -->
+
+    <!-- bootstrap link -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

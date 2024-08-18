@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin:0;
+}
+.nav-item{
+    font-size: 14px;
+    font-weight: 90px;
+    
+}
+
+.item{
+    font-size: 14px;
+}
+.item:hover{
+    color: hwb(97 1% 49%);
+}
+
+.hi:hover{
+    color: aqua;
+}
+
+.navbar{
+    box-shadow: 1.95px 1.95px 2.6px rgb(217, 209, 209);
+    height: 100px;
+}
+
+
+
+
+
+
+/* Remove the backdrop dimming effect */
+.offcanvas-backdrop {
+    display: none;
+}
+
+/* Adjust z-index so the offcanvas appears under the navlinks */
+.custom-offcanvas {
+    /* z-index: -1;  */
+    border-left: 1px solid #ddd;
+     /* Optional: Add a border to differentiate */
+}
+
+/* Optional: Adjust transition if needed */
+.custom-offcanvas .offcanvas-body {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.img1{
+    width: 100%;
+}
+
+
+.btn-outline-light:hover{
+    background-color: rgba(0, 0, 0,0.2);
+    color: white;
+    
+}
+
+
+/* background color */
+
+#row2{
+  background-color: #a3029a;
+}
+
+#row1{
+    background-color: #006241;
+}
+
+#row3{
+    background-color: #d6e342;
+}
+#row4{
+    background-color:#97d8b1;
+}
+
+
+
+
+
+
+
+
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Media Query - Convert to accordion style below 728px */
+@media screen and (max-width: 728px) {
+    .footer-menu {
+        display: block;
+    }
+
+    .footer-column h3 {
+        cursor: pointer;
+    }
+
+    .footer-column .collapse {
+        display: none; /* Hide all lists by default */
+    }
+
+    .footer-column .collapse.show {
+        display: block; /* Show the list when expanded */
+    }
+}
+
+
+@media screen and (min-width: 728px){
+    .footer-column .collapse{
+        display: block;
+    }
+}
+
+
+
+/* .btn{
+    background-color: transparent;
+} */
+
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+
+
+.accordion-item{
+    border: none;
+}
+
+
+
+hr{
+    color:rgba(0, 0, 0, 0.15) 1.95px 1.95px ; 
+    margin: 30px 30px;
+}
+.footer-final{
+    margin: 32px 39.6px 32px 39.6px;
+    text-decoration: none;
+    
+}
+ .footer-final ul{
+   list-style: none;
+   margin-left: -25px; 
+  
+ }
+ .footer-final {
+   font-size: 16px;
+   font-family: SoDoSans;
+   font-weight: 400; 
+ }
+ .sm-info{
+   margin-top: 40px;
+   
+ }
+ .sm-info a{
+   
+   color: black;
+   text-decoration: none;
+ }
+.sm-info li{
+   height: 50px;
+   
+}
+.sm-logo i{
+   font-size: 30px;
+   padding-right: 15px; 
+}
+small{
+    color: grey;  
+  }
